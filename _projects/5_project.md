@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: A Journey Through the Google Cybersecurity Professional Program
+description:
+img: assets/img/cyber.jpg
+importance: 2
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Google Cybersecurity Program Portfolio Summary:**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This portfolio serves as a comprehensive documentation of my experiences within the Google Cybersecurity Program. It encompasses a diverse range of hands-on activities, lab exercises, and projects, all designed to replicate the responsibilities typically undertaken by Entry-Level Security Analysts. Within this portfolio, I have focused on honing and applying the following key skills:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**NIST Framework Utilization:** Proficiency in applying the NIST Framework (Identify, Protect, Detect, Respond, Recover) while incorporating the fundamental security principles of the CIA triad to address security incidents effectively.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**SIEM Tools Mastery:** Adept use of SIEM (Security Information and Event Management) tools, including Wireshark and Tcpdump, for comprehensive network packet analysis.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Linux Command Line Competence:** Skill in employing the Linux Command Line Interface (CLI) for essential tasks such as file management and user authentication, crucial for effective security administration.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Access Control Strategy Implementation:** Application of access control strategies to analyze and mitigate security incidents.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Incident Handling Proficiency:** Proficient use of an Incident Handler Journal for meticulous incident tracking, ensuring timely and appropriate responses.
 
-{% raw %}
+**Python Programming for Automation:** Leveraging Python programming for automating various security tasks, enhancing efficiency and effectiveness in cybersecurity operations.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+This portfolio reflects my dedication to advancing my knowledge and skills in the realm of cybersecurity through participation in the Google Cybersecurity Program. It underscores my practical experience and real-world readiness.
 
-{% endraw %}
+To view the full portfolio, visit [My Google Cybersecurity Portfolio on Github](https://github.com/ahmedkordofani/Google-Cybersecurity-Professional-Certificate).

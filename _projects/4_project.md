@@ -1,80 +1,53 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Setting Up an Active Directory Home Lab
+description: 
+img: assets/img/AD.jpg
+importance: 1
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Description
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project showcases my skills in setting up an Active Directory (AD) home lab using Windows Server 2019 and VirtualBox. Additionally, it features a PowerShell script for bulk user creation in AD, creating 1000 users for testing and demonstration purposes.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Languages and Utilities Used
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- PowerShell
+- Active Directory
+- VirtualBox
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Environments Used
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Windows 10
+- Windows Server 2019
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Setting Up a DHCP Server on Domain Controller and Connecting Client Machine
 
-{% raw %}
+### Program Walk-through:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+1. **VirtualBox Setup**
+   - Install and configure VirtualBox on your host machine.
+   - Create virtual machines for Windows Server 2019 and Windows 10 with specified settings.
 
-{% endraw %}
+2. **Windows Server 2019 Configuration**
+   - Set up Active Directory on the domain controller (Windows Server 2019). Refer to [insert link to your Active Directory setup guide].
+   - Promote the server to a domain controller with a specified domain name and DNS installation.
+
+3. **DHCP Server Configuration**
+   - Open the Server Manager on the domain controller.
+   - Select "Manage" and click on "Add Roles and Features."
+   - Choose "DHCP Server" in the role installation wizard.
+   - Complete the DHCP server installation process, ensuring to configure the DHCP scope with relevant details (IP range, subnet mask, gateway, and DNS server).
+
+4. **Windows 10 Configuration**
+   - On the Windows 10 virtual machine, open the Network and Sharing Center.
+   - Set the network location to "Work network" to enable DHCP.
+   - Confirm the assignment of a dynamic IP address from the DHCP server.
+
+5. **Verification**
+   - Verify the successful connection by checking the IP configuration on the Windows 10 machine. The IP should be within the DHCP scope defined on the domain controller.
+
+## Watch Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4SLPpQJ_OSk" frameborder="0" allowfullscreen></iframe>

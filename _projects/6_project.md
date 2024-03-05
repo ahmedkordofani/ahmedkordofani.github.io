@@ -1,80 +1,52 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: "Embarking on a Software Engineering Journey: Building Makersbnb"
+description: 
+img: assets/img/makers.png
+importance: 3
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Module 6: Engineering Project (Makersbnb)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### [Watch Demo Day - Group Presentation](https://youtu.be/luQzgdvhhMQ?t=1533)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/luQzgdvhhMQ?start=1533" frameborder="0" allowfullscreen></iframe>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+In Module 6 of the Makers course, I had the opportunity to work as part of a team on the "Makersbnb" project, a web application that allowed me to apply and further develop my engineering skills and collaborate effectively within a team. Here are the key achievements and experiences from this module, particularly focusing on the Airbnb project:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Effective Team Collaboration
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Teamwork and Communication:** I learned how to work and communicate effectively as part of a team, collaborating with three other team members to build the Makersbnb web application. This experience enhanced my ability to share ideas, information, and feedback within a team setting.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Task Breakdown and Assignment:** We successfully broke down the project into tasks and assigned them to pairs, ensuring that each team member had a specific role and responsibility. This approach allowed us to work efficiently and meet our project goals.
 
-{% raw %}
+## Agile Project Management
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Agile Ceremonies:** We implemented agile ceremonies to organize our work and improve our processes. Daily stand-up meetings and retrospectives were essential for tracking our progress, identifying challenges, and making continuous improvements to our workflow.
 
-{% endraw %}
+- **Trello Board:** We created a Trello board to visualize our development workflow and track the progress of our tasks. This board included columns such as "Backlog (All TODO)," "Current Sprint," "In Progress," "In Review," and "Done," which allowed us to manage our tasks effectively.
+
+## Developer Workflow
+
+- **Planning and Implementation:** We followed a developer workflow to plan, implement, and peer-review features. This workflow ensured that we maintained a systematic approach to feature development, from ideation to testing and deployment.
+
+- **Minimum Viable Product (MVP):** We focused on building an MVP that implemented the core features of the Makersbnb project. This approach allowed us to deliver a functional product quickly, enabling us to gather feedback and iterate on our project effectively.
+
+## User Stories and Tasks
+
+- **User Story Breakdown:** We broke down user stories into smaller, manageable tasks, ensuring that each task was achievable in less than half a day. This approach allowed us to work on individual components of the project without overwhelming ourselves.
+
+- **Acceptance Criteria and Testing:** We defined clear acceptance criteria for each task, specifying what would constitute the completion of that feature. This included considering testing requirements, ensuring that each feature was thoroughly tested.
+
+## Challenges and Learnings
+
+- **Effective Work Habits:** We learned the importance of maintaining a healthy work-life balance and not overexerting ourselves. Regular breaks and pair rotations helped us stay focused and refreshed.
+
+- **Ensuring Everyone's Voice Is Heard:** It was crucial to create an inclusive environment where every team member's voice was heard and valued. This allowed us to consider diverse perspectives and ensure that everyone contributed to the project.
+
+## Web Development Tools and Guidance
+
+- We leveraged the guidance and tools provided in the web development materials to implement common web application patterns, such as user sign-up and login, loading static files (CSS, images, etc.), and other essential functionalities.
+
+The Makersbnb project in Module 6 was a valuable experience that allowed me to apply my technical knowledge, collaborate effectively within a team, and follow agile development practices. This project not only enhanced my coding skills but also sharpened my project management and teamwork abilities, preparing me for real-world software engineering projects.

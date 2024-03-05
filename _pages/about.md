@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://github.com/ahmedkordofani'>IT Analyst, Programmer, Cybersecurity Enthusiast</a>
+subtitle: <a href='https://github.com/ahmedkordofani'>IT Professional, Programmer, Cybersecurity Enthusiast</a>
 
 profile:
   align: right
@@ -27,6 +27,6 @@ Additionally, I've contributed to developing an Airbnb mockup site, enhancing my
 
 Seeking collaboration opportunities to fortify digital landscapes and navigate the evolving cyber threat landscape.
 
-Drop me an email at kord.ahmed.97@gmail.com to discuss how I can contribute to your team’s success.
+Drop me an email at **kord.ahmed.97@gmail.com** to discuss how I can contribute to your team’s success.
 
 Stay secure, stay vigilant!
