@@ -28,5 +28,4 @@ Looking back on my time with Generation UK, I'm grateful for the invaluable skil
 
 <img src="/assets/img/generation.png" width="100%" height="100%">
 
-
 <img src="/assets/img/generation_certificate.jpg" width="100%" height="100%">

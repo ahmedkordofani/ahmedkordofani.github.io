@@ -9,9 +9,12 @@ category: work
 
 # Module 6: Engineering Project (Makersbnb)
 
-### [Watch Demo Day - Group Presentation](https://youtu.be/luQzgdvhhMQ?t=1533)
+### Watch Demo Day - Group Presentation
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/luQzgdvhhMQ?start=1533" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe src="https://www.youtube.com/embed/luQzgdvhhMQ?start=1533" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 In Module 6 of the Makers course, I had the opportunity to work as part of a team on the "Makersbnb" project, a web application that allowed me to apply and further develop my engineering skills and collaborate effectively within a team. Here are the key achievements and experiences from this module, particularly focusing on the Airbnb project:
 
