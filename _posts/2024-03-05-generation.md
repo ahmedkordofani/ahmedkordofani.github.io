@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My First Bootcamp Experience with Generation UK
+title: "Tech Bootcamp 1: Generation UK (IT & Cybersecurity)"
 date: 2024-03-05
-description: Join me on an exhilarating journey as I navigate through my first IT bootcamp experience with Generation UK. From day one to graduation, I'll share insights, challenges, and triumphs as I dive into the world of IT training, preparing for an exciting career ahead.
+description: My experience at Generation UK.
 tags:
 categories: 
 code_diff: true
@@ -29,3 +29,4 @@ Looking back on my time with Generation UK, I'm grateful for the invaluable skil
 <img src="/assets/img/generation.png" width="100%" height="100%">
 
 
+<img src="/assets/img/generation_certificate.jpg" width="100%" height="100%">
