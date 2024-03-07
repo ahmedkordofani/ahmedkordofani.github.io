@@ -7,14 +7,7 @@ importance: 3
 category: work
 ---
 
-# Module 6: Engineering Project (Makersbnb)
-
-### Watch Demo Day - Group Presentation
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-  <iframe src="https://www.youtube.com/embed/luQzgdvhhMQ?start=1533" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" frameborder="0" allowfullscreen></iframe>
-</div>
-
+## Module 6: Engineering Project (Makersbnb)
 
 In Module 6 of the Makers course, I had the opportunity to work as part of a team on the "Makersbnb" project, a web application that allowed me to apply and further develop my engineering skills and collaborate effectively within a team. Here are the key achievements and experiences from this module, particularly focusing on the Airbnb project:
 
@@ -53,3 +46,9 @@ In Module 6 of the Makers course, I had the opportunity to work as part of a tea
 - We leveraged the guidance and tools provided in the web development materials to implement common web application patterns, such as user sign-up and login, loading static files (CSS, images, etc.), and other essential functionalities.
 
 The Makersbnb project in Module 6 was a valuable experience that allowed me to apply my technical knowledge, collaborate effectively within a team, and follow agile development practices. This project not only enhanced my coding skills but also sharpened my project management and teamwork abilities, preparing me for real-world software engineering projects.
+
+### Watch Demo Day - Group Presentation
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe src="https://www.youtube.com/embed/luQzgdvhhMQ?start=1533" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" frameborder="0" allowfullscreen></iframe>
+</div>

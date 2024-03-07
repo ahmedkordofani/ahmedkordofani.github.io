@@ -50,4 +50,11 @@ This project showcases my skills in setting up an Active Directory (AD) home lab
 
 ## Watch Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SLPpQJ_OSk" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe src="https://www.youtube.com/embed/4SLPpQJ_OSk" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+
